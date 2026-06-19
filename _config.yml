@@ -1,22 +1,18 @@
-title: Title
-author:
-  name: Ramsey Sheibani
-  email: ramseysheibani@gmail.com
+title: Ramsey Sheibani
+email: ramseysheibani@gmail.com
 
 description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+url: "https://rsheibani01.github.io"
+
 
 remote_theme: "jekyll/minima@1e8a445"
-
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+#  - jekyll-feed
 
-sass:
-  quiet_deps: true
-  silence_deprecations: [import]
+
+#sass:
+#  quiet_deps: true
+#  silence_deprecations: [import]
 
 minima:
   # Minima skin selection. Available skins are:
@@ -28,16 +24,16 @@ minima:
   #     * solarized-dark     Dark variant of solarized color scheme.
   #     * solarized          Adaptive skin for solarized color scheme skins.
   skin: dark
-
+markdown: kramdown
   # Specific pages for site navigation.
   #   If you wish to link only specific pages in the site-navigation, use this and list
   #   the `path` property (as represented via Liquid) of the pages in the order they
   #   should be rendered.
-  nav_pages:
-    - about.md
+#  nav_pages:
+#    - about.md
 
   # Set to `true` to show excerpts on the homepage.
-  show_excerpts: false
+  #show_excerpts: false
 
   # Minima date format.
   #   The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
