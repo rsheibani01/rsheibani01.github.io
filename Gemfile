@@ -1,6 +1,16 @@
 source "https://rubygems.org"
 
-gem "github-pages", group: :jekyll_plugins
-gem "webrick", "~> 1.7"
-gem "csv"
-gem "bigdecimal"
+gem "jekyll", "~> 4.3"
+gem "jekyll-remote-theme"
+gem "jekyll-feed"
+gem "jekyll-sitemap"
+gem "jekyll-markdown-output"
+gem "jekyll-llms-output"
+
+# Moonwalk expects this:
+gem "jekyll-seo-tag", "~> 2.7"
+gem "jekyll-soopr-seo-tag"
+
+gem "jekyll-sass-converter", "~> 3.0"
+gem "sass-embedded"
+gem "webrick", "~> 1.8"

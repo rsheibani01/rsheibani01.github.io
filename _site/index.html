@@ -1,42 +1,124 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Ramsey Sheibani’s Website | Ramsey Sheibani</title>
-<meta name="generator" content="Jekyll v3.10.0" />
-<meta property="og:title" content="Ramsey Sheibani’s Website" />
+<html lang="en" class="html" data-theme="dark"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>
+    
+      Ramsey Sheibani
+    
+  </title>
+
+  <!-- Begin Jekyll SEO tag v2.7.3 -->
+<meta name="generator" content="Jekyll v4.4.1" />
+<meta property="og:title" content="Ramsey Sheibani" />
 <meta property="og:locale" content="en_US" />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="Ramsey Sheibani" />
-<meta property="og:type" content="website" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Ramsey Sheibani’s Website" />
+<meta property="twitter:title" content="Ramsey Sheibani" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"Ramsey Sheibani’s Website","name":"Ramsey Sheibani","url":"http://localhost:4000/"}</script>
+{"name":"Ramsey Sheibani","@type":"WebSite","headline":"Ramsey Sheibani","url":"http://localhost:4000/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@latest/css/all.min.css">
-  <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ramsey Sheibani" />
+
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Ramsey Sheibani" />
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/assets/images/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/assets/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/assets/images/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#00aba9">
+  <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Favicon -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet"><link rel="stylesheet" href="/assets/css/main.css" />
+  
+    <script type="text/javascript">
+  window.addEventListener('load', themeChange);
+  const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
+  if (currentTheme)
+    document.documentElement.setAttribute('data-theme', currentTheme);
+
+  function themeChange() {
+    var button = document.querySelector('.theme-toggle');
+    if (!button) return;
+
+    function updateIcon(theme) {
+      button.setAttribute('aria-pressed', theme === 'dark' ? 'true' : 'false');
+      button.querySelector('.icon-sun').style.display = theme === 'dark' ? 'block' : 'none';
+      button.querySelector('.icon-moon').style.display = theme === 'dark' ? 'none' : 'block';
+    }
+
+    updateIcon(document.documentElement.getAttribute('data-theme'));
+
+    button.addEventListener('click', function (e) {
+      var currentTheme = document.documentElement.getAttribute('data-theme');
+      var next = currentTheme === 'dark' ? 'light' : 'dark';
+
+      transition();
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('theme', next);
+      updateIcon(next);
+    });
+
+    function transition() {
+      document.documentElement.classList.add('transition');
+      window.setTimeout(function () {
+        document.documentElement.classList.remove('transition');
+      }, 1000);
+    }
+  }
+</script>
+
+  
 </head>
-<body><header class="site-header">
+<body><main class="page-content" aria-label="Content">
+      <div class="w">
+        <header>
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Ramsey Sheibani</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+  <ul class="horizontal-list">
+  
+    <li>
+      <a href="/research">
+        Research
+      </a>
+      &nbsp;&nbsp;
+    </li>
+  
+    <li>
+      <a href="https://github.com/ericdu03/Courses">
+        Coursework
+      </a>
+      &nbsp;&nbsp;
+    </li>
+  
+    <li>
+      <a href="/thesis.pdf">
+        Thesis
+      </a>
+      &nbsp;&nbsp;
+    </li>
+  
+</ul>
 
-        <div class="trigger"><a class="page-link" href="/">Ramsey Sheibani&#39;s Website</a></div>
-      </nav></div>
+  <div class="dashed"></div>
+
+
+  <h1>Ramsey Sheibani</h1>
+  
+    <p></p>
+  
 </header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="home"><h1 class="page-heading">Ramsey Sheibani's Website</h1><h1 id="welcome">Welcome!</h1>
+
+<h1 id="welcome">Welcome!</h1>
 
 <p>My name is Ramsey Sheibani, and I’m a recent mathematics graduate from UC Berkeley interested in pursuing actuarial, analyst, and trading positions. This is my project page, where I will be storing all of my finished projects, as well as writeups for all of them to discuss both my code and my thought processes during development. I will also be including some short snippets of current projects so you can get a sneak peak at what I’ll be creating in the near future. All of these projects are constructed from scratch with no outside assistance. While I do have projects that I completed in university courses, I would consider it academically dishonest to post any of them here, so I will refrain from doing so.</p>
 
@@ -47,40 +129,329 @@
 
 
 
-  </div>
+  <h2>Portfolio</h2>
+  <ul class="horizontal-list">
+  
 
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
+    <li class="card">
+      <a href="/research/box-modes/">
+        <span class="header">
+          Box Modes Project
 
-  <div class="wrapper">
+          
+            <mark>UC Berkeley</mark>
+          
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="http://localhost:4000/feed.xml">
-            <svg class="svg-icon orange">
-              <path d="M12.8 16C12.8 8.978 7.022 3.2 0 3.2V0c8.777 0 16 7.223 16 16h-3.2zM2.194
-                11.61c1.21 0 2.195.985 2.195 2.196 0 1.21-.99 2.194-2.2 2.194C.98 16 0 15.017 0
-                13.806c0-1.21.983-2.195 2.194-2.195zM10.606
-                16h-3.11c0-4.113-3.383-7.497-7.496-7.497v-3.11c5.818 0 10.606 4.79 10.606 10.607z"
-              />
-            </svg><span>Subscribe</span>
-          </a>
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          HFSS simulations of spurious package modes in superconducting chip packages.
         </p>
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="/research/ion-milling/">
+        <span class="header">
+          Ion Milling
+
+          
+            <mark>LBNL</mark>
+          
+
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          Developing novel Josephson Junction deposition recipes to improve qubit coherence.
+        </p>
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="/research/resonator-sims/">
+        <span class="header">
+          Resonator Simulations
+
+          
+            <mark>LBNL</mark>
+          
+
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          Developing a simulation framework using the quantum-metal and Ansys HFSS.
+        </p>
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="/research/something/">
+        <span class="header">
+          Superconducting Rectifier
+
+          
+            <mark>UC Berkeley</mark>
+          
+
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          Designing a high-frequency superconducting rectifier for cryogenic experiments.
+        </p>
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="https://physnotes.github.io">
+        <span class="header">
+          Physnotes
+
+          
+
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          Authoring a comprehensive book on all core undergraduate physics topics.
+        </p>
+        
+      </a>
+    </li>
+
+  
+</ul>
+
+
+
+
+
+
+  <h2>Blog</h2>
+  
+
+
+
+
+  <h2>Old Projects</h2>
+  <ul class="horizontal-list">
+  
+
+    <li class="card">
+      <a href="/research/whistler-waves/">
+        <span class="header">
+          Whistler Waves
+
+          
+            <mark>SSL</mark>
+          
+
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          Data analysis using MATLAB scripts on whistler waves in the solar wind.
+        </p>
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="180-projects/project-1/">
+        <span class="header">
+          Coloring the Prokudin Gorskii collection
+
+          
+            <mark>CS 180</mark>
+          
+
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          Project 1
+        </p>
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="180-projects/project-2/">
+        <span class="header">
+          Fun with Filters and Frequencies
+
+          
+            <mark>CS 180</mark>
+          
+
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          Project 2
+        </p>
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="180-projects/project-3/">
+        <span class="header">
+          Face Morphing
+
+          
+            <mark>CS 180</mark>
+          
+
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          Project 3
+        </p>
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="180-projects/project-4/">
+        <span class="header">
+          Image warping, Mosaicing and Autostitching
+
+          
+            <mark>CS 180</mark>
+          
+
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          Project 4
+        </p>
+        
+      </a>
+    </li>
+
+  
+
+    <li class="card">
+      <a href="180-projects/project-5/">
+        <span class="header">
+          Diffusion Models
+
+          
+            <mark>CS 180</mark>
+          
+
+        </span>
+
+        <hr />
+
+        
+        <p class="body">
+          Project 5
+        </p>
+        
+      </a>
+    </li>
+
+  
+</ul>
+
+
+
+
+
+  <footer>
+    <div class="dashed"></div>
+    <ul class="horizontal-list">
+  
+    <li>
+      <a href="https://github.com/ericdu03">
+        GitHub
+      </a>
+      &nbsp;&nbsp;
+    </li>
+  
+    <li>
+      <a href="https://physnotes.github.io">
+        Physnotes
+      </a>
+      &nbsp;&nbsp;
+    </li>
+  
+</ul>
+
+  </footer>
+
+
+        
+          <button aria-label="Toggle dark mode" aria-pressed="false" class="theme-toggle">
+  <svg class="icon-sun" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="12" cy="12" r="5"></circle>
+    <line x1="12" y1="1" x2="12" y2="3"></line>
+    <line x1="12" y1="21" x2="12" y2="23"></line>
+    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+    <line x1="1" y1="12" x2="3" y2="12"></line>
+    <line x1="21" y1="12" x2="23" y2="12"></line>
+    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+  </svg>
+  <svg class="icon-moon" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+  </svg>
+</button>
+
+        
+        <div class="credits">&copy;&nbsp;2026&nbsp;
+          &nbsp;
+          •
+          &nbsp;Theme&nbsp; <a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noopener noreferrer">Moonwalk</a>
+        </div>
       </div>
-      <div class="footer-col">
-        <p></p>
-      </div>
-    </div>
-
-    <div class="social-links"><ul class="social-media-list"></ul>
-</div>
-
-  </div>
-
-</footer>
-
-</body>
-
+    </main></body>
 </html>

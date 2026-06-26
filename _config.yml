@@ -10,6 +10,9 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-remote-theme
+  - jekyll-markdown-output
+  - jekyll-llms-output
 
 sass:
   style: :compressed
@@ -42,6 +45,15 @@ theme_config:
     title_misc_list: Details
     title_blog: Blog
     title_old_projects: Old Projects
+
+  markdown_output:
+    collections: [posts]
     
+  llms_output:
+  index:
+    collections: [posts]
+  full:
+    collections: [posts]
+    respect_markdown_output: true  
 
 

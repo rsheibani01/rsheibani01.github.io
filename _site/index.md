@@ -1,5 +1,5 @@
 ---
-layout: home
+url: http://localhost:4000/
 ---
 
 # Welcome!
@@ -9,4 +9,3 @@ My name is Ramsey Sheibani, and I'm a recent mathematics graduate from UC Berkel
 Let me first tell you a little bit about myself. 
 
 This is a new sentence to test to local host :)
-
