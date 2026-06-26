@@ -11,10 +11,8 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
-
-#sass:
-#  quiet_deps: true
-#  silence_deprecations: [import]
+sass:
+  style: :compressed
 
 theme_config:
   appearance: "dark" # can be "light", "dark" or "auto"
