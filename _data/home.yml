@@ -1,6 +1,4 @@
 navbar_entries:
-  - title: Projects
-    url: /projects
 
   - title: Tutoring
     url: /tutoring
@@ -8,8 +6,8 @@ navbar_entries:
   - title: Blog
     url: /blog
 
-  - title: Thesis
-    url: /thesis.pdf
+  - title: Math Notes
+    url: /notes
 
 project_entries:
   - title: Enigma
@@ -46,8 +44,8 @@ footer_entries:
   - title: GitHub
     url: https://github.com/rsheibani01
 
-  - title: Notes
+  - title: Thesis
     url: >
 
   - title: Contact
-    url: >
+    url: ramseysheibani@gmail.com
